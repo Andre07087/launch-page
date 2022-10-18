@@ -1,114 +1,156 @@
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0px;
+  font-family: Rubik, sans-serif;
+}
+
+footer {
+  margin-top: auto;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+
+.header {
+  display: block;
+  background-color: #1f2937;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  margin: auto;
+  max-width: 80rem;
+}
+
+.logo a {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 800;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.nav a {
+  color: #f9faf8;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+.hero {
+  background-color: #1f2937;
+  padding: 100px 30px;
+}
+
+.hero-wrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80rem;
+  margin: auto;
+}
+.hero p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero-left {
+  max-width: 29rem;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.hero-btn {
+  display: inline-block;
+  background-color: #3882f6;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 10px;
+  font-weight: 800;
+}
+
+.placeholder-img {
+  background-color: #6d747d;
+  padding: 100px;
+  display: inline-block;
+  font-size: 18px;
+}
+
+.info-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+.info-title {
+  flex: 1 1 100%;
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.info-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 100%;
+  justify-content: center;
+}
+
+.info-box {
+  margin: 25px;
+}
+.info-box p {
+  max-width: fit-content;
+}
+
+.box-img {
+  display: inline-block;
+  padding: 75px;
+  border: 3px solid #3882f6;
+  border-radius: 10px;
+}
+
+.quote-div {
+    background-color: #e5e7eb;
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    justify-content: center;
+    padding: 100px 0px;
+}
+
+.quote-wrapper {
+    max-width: 45rem;
+}
+.quote-wrapper p {
+    text-align: justify;
+}
+.quote-wrapper p {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
     margin: 0px;
-    /* font-family: roboto; */
-  }
-  
-  footer {
-    margin-top: auto;
-  }
-  
-  a:hover,
-  a:visited,
-  a:link,
-  a:active {
-    text-decoration: none;
-  }
-  
-  .nav-menu {
-    display: flex;
-    background-color: #1f2937;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
-  }
-  
-  .nav-menu h2 {
-    padding-left: 80px;
-    font-size: 24px;
-    color: #f9faf8;
-  }
-  
-  .nav-links {
-    padding-right: 80px;
-  }
-  
-  .nav-links a {
-      color: white;
-      margin-left: 20px;
-      font-size: 18px;
-    }
-  
-    .hero-header {
-      display: flex;
-      background-color: #1f2937;
-      color: white;
-      padding: 50px 80px;
-      justify-content: center;
-    }
-     .hero-left {
-      margin-right: 30px;
-     }
-  
-    .hero-left h1 {
-      margin: 0;
-      font-size: 48px;
-      font-weight: 800;
-      color: #f9faf8;
-    }
+    letter-spacing: .7px;
+}
 
-    .hero-left p {
-      font-size: 18px;
-      color: #e5e7eb
-    }
-  
-    .hero-btn {
-      background-color: #3882f6;
-      color:white;
-      padding: 10px 40px;;
-      border-radius: 10px;
-    }
-  
-    .hero-right {
-  
-    }
-    
-    .placeholder-img {
-      background-color: #6D747D;
-      padding: 80px 100px;
-      display: inline-block;
-      font-size: 18px;
-    }
+.quote-sig   {
+    font-weight: 800;
+    font-size: 30px;
+    text-align: right;
+    padding: 18px;
 
-    .information-header {
-      display: flex;
-      /* justify-content: center; */
-      flex-wrap:wrap;
-    }
-
-  .information-header h1 {
-    flex-basis: 100%;
-    text-align: center;
-  }
-
-  .box-container {
-   display: flex;
-   flex-basis: 100%;
-   justify-content: center;
-  }
-
-  .info-box {
-    margin: 25px;
-  }
-  .info-box p {
-    max-width: fit-content;
-  }
-
-  .box-img {
-    display: inline-block;
-    padding: 80px;
-    border: 3px solid #3882f6;
-    border-radius: 10px;
-  }
+}
