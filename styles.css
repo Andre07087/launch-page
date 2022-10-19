@@ -27,7 +27,7 @@ a:active {
   align-items: center;
   padding: 10px 30px;
   margin: auto;
-  max-width: 80rem;
+  max-width: 75rem;
 }
 
 .logo a {
@@ -56,7 +56,7 @@ a:active {
 .hero-wrapper {
   display: flex;
   justify-content: space-between;
-  max-width: 80rem;
+  max-width: 75rem;
   margin: auto;
 }
 .hero p {
@@ -86,7 +86,7 @@ a:active {
 
 .placeholder-img {
   background-color: #6d747d;
-  padding: 100px;
+  padding: 120px;
   display: inline-block;
   font-size: 18px;
 }
@@ -121,7 +121,7 @@ a:active {
 .box-img {
   display: inline-block;
   padding: 75px;
-  border: 3px solid #3882f6;
+  border: 5px solid #3882f6;
   border-radius: 10px;
 }
 
@@ -130,10 +130,11 @@ a:active {
     display: flex;
     justify-content: center;
     padding: 100px 0px;
+    margin-top: 100px;
 }
 
 .quote-wrapper {
-    max-width: 45rem;
+    max-width: 55rem;
 }
 .quote-wrapper p {
     text-align: justify;
@@ -153,4 +154,50 @@ a:active {
     text-align: right;
     padding: 18px;
 
+}
+
+.call-action {
+  display: flex;
+  justify-content: center;
+}
+.call-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: #3882f6;
+  border-radius: 15px;
+  color: white;
+  padding: 60px 100px;
+  max-width: fit-content;
+  margin: 200px 0px;
+}
+
+.call-left {
+  margin-right: 200px;
+}
+.call-left p {
+  margin: 3px;
+  font-size: 28px;
+}
+
+.call-right {
+  display: flex;
+  align-items: center;
+}
+
+.action-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  border: 3px solid white;
+  font-weight: 600;
+  color: white;
+  border-radius: 10px;
+  font-size: 26px;
+}
+
+footer {
+  text-align: center;
+  background-color: #1f2937;
+  padding: 50px;
+  font-size: 24px;
+  color: white;
 }
